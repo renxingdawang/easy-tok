@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	user "easy-tok/kitex_gen/easy/tok/user"
+	user "github.com/renxingdawang/easy-tok/kitex_gen/easy/tok/user"
 )
 
 // UserSrvImpl implements the last service interface defined in the IDL.

@@ -1,7 +1,7 @@
 package main
 
 import (
-	user "easy-tok/kitex_gen/easy/tok/user/usersrv"
+	user "github.com/renxingdawang/easy-tok/kitex_gen/easy/tok/user/usersrv"
 	"log"
 )
 
