@@ -1,11 +1,13 @@
 package mysql
 
 import (
+	"errors"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
 
+var ErrDatabase = errors.New("database operation failed")
 var dsn = "gorm:gorm@tcp(localhost:9910)/gorm?charset=utf8&parseTime=True&loc=Local"
 
 var DB *gorm.DB

@@ -2,12 +2,9 @@ package mysql
 
 import (
 	"context"
-	"errors"
 	"github.com/renxingdawang/easy-tok/model"
 	"gorm.io/gorm"
 )
-
-var ErrDatabase = errors.New("database operation failed")
 
 func GetRelation(ctx context.Context, uid int64, tid int64) (*model.Relation, error) {
 	relation := new(model.Relation)
