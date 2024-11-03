@@ -8,6 +8,7 @@ require (
 	github.com/cloudwego/gopkg v0.1.2
 	github.com/cloudwego/kitex v0.11.3
 	github.com/golang-jwt/jwt v3.2.2+incompatible
+	github.com/google/uuid v1.1.2
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.12
 )
